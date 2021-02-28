@@ -210,7 +210,7 @@
 	<!-- Blog -->
 	<section class="fh5co-blog">
 		<div class="site-container">
-			<h2 class="universal-h2 universal-h2-bckg">My Blog</h2>
+			<h2 class="universal-h2 universal-h2-bckg">athor websites</h2>
 			<div class="blog-slider blog-inner">
 				<div class="single-blog">
 					<div class="single-blog__img">
@@ -227,9 +227,9 @@
 						<img src="./images/blog2.jpg" alt="blog image">
 					</div>
 					<div class="single-blog__text">
-						<h4>The Journey Under the Waves</h4>
-						<span>On August 28, 2015</span>
-						<p>Quisque vel sapi nec lacus adipis cing bibendum nullam porta lites laoreet aliquam.velitest, tempus a ullamcorper et, lacinia mattis mi. Cras arcu nulla, blandit id cursus et, ultricies eu leo.</p>
+						<h4><a href="file:///C:/Users/pc/Desktop/%D9%85%D9%88%D9%82%D8%B9/web.html" target="_blank">Game Store</a> </h4>
+						<span>On August 28, 2020</span>
+						<p>I did thes website as a Online shope.</p>
 					</div>
 				</div>
 				<div class="single-blog">
@@ -252,18 +252,63 @@
 		<div class="site-container">
 			<div class="about-me-slider">
 				<div>
-					<h2 class="universal-h2 universal-h2-bckg">What People Are Saying</h2>
-					<p>“Pudding croissant cake candy canes fruitcake sweet roll pastry gummies sugar plum. Tart pastry danish soufflé donut bear claw chocolate cake marshmallow chupa chups. Jelly danish gummi bears cake donut powder chocolate cake. Bonbon soufflé lollipop biscuit dragée jelly-o. Wafer pastry pudding tiramisu chocolate bar croissant cake. Pie caramels gummies danish.”</p>
+					<h2 class="universal-h2 universal-h2-bckg">Media audio</h2>
+					<audio controls autoplay muted>
+                        <source src="50212.ogg" type="audio/ogg">
+                        <source src="50212.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
 					<img src="./images/quotes.svg" alt="quotes svg">
 					<h4>David Dixon</h4>
 					<p>Reader</p>
 				</div>
-				<div>
-					<h2 class="universal-h2 universal-h2-bckg">What People Are Saying 2</h2>
-					<p>“Pudding croissant cake candy canes fruitcake sweet roll pastry gummies sugar plum. Tart pastry danish soufflé donut bear claw chocolate cake marshmallow chupa chups. Jelly danish gummi bears cake donut powder chocolate cake. Bonbon soufflé lollipop biscuit dragée jelly-o. Wafer pastry pudding tiramisu chocolate bar croissant cake. Pie caramels gummies danish.”</p>
+                <div>
+					<h2 class="universal-h2 universal-h2-bckg">Media vidoe 1</h2>
+					 <video controls muted width="500px">
+                            <source src="projject.mp4" type="video/mp4">
+                            <source src="projject.ogg" type="video/ogg">
+                            Your browser does not support HTML video.
+                        </video>
 					<img src="./images/quotes.svg" alt="quotes svg">
-					<h4>David Dixon</h4>
-					<p>Reader</p>
+					<h4>Yz</h4>
+				</div>
+				<div>
+					<h2 class="universal-h2 universal-h2-bckg">Media video 2</h2>
+                    <div style="text-align:center"> 
+                        <button onclick="playPause()">Play/Pause</button> 
+                        <button onclick="makeBig()">Big</button>
+                        <button onclick="makeSmall()">Small</button>
+                        <button onclick="makeNormal()">Normal</button>
+                        <br><br>
+                        <video id="video1" width="420">
+                            <source src="projject.mp4" type="video/mp4">
+                            <source src="projject.ogg" type="video/ogg">
+                            Your browser does not support HTML video.
+                        </video>
+                    </div> 
+
+                    <script> 
+                        var myVideo = document.getElementById("video1"); 
+
+                        function playPause() { 
+
+                            if (myVideo.paused) 
+                                myVideo.play(); 
+                            else 
+                                myVideo.pause(); 
+                        } 
+                        function makeBig() { 
+                            myVideo.width = 560; 
+                        } 
+                        function makeSmall() { 
+                            myVideo.width = 320; 
+                        } 
+                        function makeNormal() { 
+                            myVideo.width = 420; 
+                        } 
+                    </script>
+					<img src="./images/quotes.svg" alt="quotes svg">
+					<h4>Yz</h4>
 				</div>
 			</div>
 		</div>
